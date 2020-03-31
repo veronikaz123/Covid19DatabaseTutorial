@@ -1,3 +1,11 @@
+/*
+Indlæsning af dataset fra URL og print karakteristika.
+Se consolen i Chrome View->Developer->JavaScript console.
+Der kommer nogen fejlmeddelser som I skal se bort fra.
+*/
+
+
+
 let table;
 
 function preload() {
@@ -5,16 +13,13 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
-	background(100);
-	text('antal rækker: ' + table.getRowCount(),600,400);
-	text('antal søjler: ' + table.getColumnCount(),600,420);
-  Italy = table.findRow('Italy','Country/Region');
-  print(Italy);
-  print(Object.keys(Italy));
-  print(Italy.table.columns[4]);
-  print(Italy.get(2));
-
+	print('antal rækker: ' + table.getRowCount());
+	print('antal søjler: ' + table.getColumnCount());
+//  Italy = table.findRow('Italy','Country/Region');
+//  print(Italy);
+//  print(Object.keys(Italy));
+//  print(Italy.table.columns);
+//  print(Italy.get(2));
 }
 
 function draw(){
