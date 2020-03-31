@@ -18,22 +18,23 @@ I en trelagsarkitur indeles et program i tre lag, hvilket er er nyttigt i implem
 
 **Datalag:** Det nederste lag der opbevarer og håndterer data. Dette lag er også kendetegnet ved at være ”tæt” på computeren.
 
-*Datalaget* er her en database som er lagt offentligt tilgængelig på Github
+**Datalaget** er her en database som er lagt offentligt tilgængelig på Github
 
  [github.com antal dødsfald](https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv)
 
 [githob.com antal smittede](https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv)
 
-*Logiklaget* behandler data.
+**Logiklaget** behandler data.
 ![dataeksempel](images/database1.png)
 
 eks.
 pseudokode til valg af Færøerne:
 ```
-Hvis mus klik med koordinaterne (-6.92,61) vis data fra række 94 fra datasæt `github.com antal dødsfald` og `github.com antal smittede`
+Hvis mus klik med koordinaterne (-6.92,61) vis data fra række 94
+fra datasæt `github.com antal dødsfald` og `github.com antal smittede`
 ```
 
-I *Præsentationslaget* bliver resultatet af logiklaget vist.
+I **Præsentationslaget** bliver resultatet af logiklaget vist.
 eks.
 
 ![faeroeerne](images/database2.png)
@@ -111,7 +112,7 @@ Vi starter med js filen [ExploreData.js](ExploreData.js).
 * Print antallet af rækker og kolonner.
 * Find data på Italien.
 
-### Øvslse
+### Øvelse
 * Find javaScript consollen i browseren.
 * Undersøg data for antallet af smittede (linket er øverst).
 * Print antallet af rækker og kolonner.
