@@ -71,7 +71,32 @@ De forskellige datasæt eks `antal smittede` og `antal døde` kan ses som en dat
 * Angiv nøgle, Entiteter og Attributter for datasættet [covid-19 death](https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv#L8)
 * Overvej problemer i forhold til at medtage flere regioner eller lande.
 * Beskriv hvilken information tabellens første række, header, angiver.
-
-<small><small>
 Løsning, **nøgle**, rækkenummer i tabellen, **Entiteter**, lande eller regioner, **Attributter**, koordinater og antal smittede
-</small></small>
+
+Vi får brug for data rent i csv format, Det kan gøres ved `Raw` knappen.
+
+## Undersøgelse og visualisering af data
+Vi vil bruge javaScript biblioteket P5.js til at visualisere data.
+
+Onlineværktøjet [https://teddavis.org/p5live/](https://teddavis.org/p5live/) gør det muligt at skrive kode sammen på forskellige computere.
+
+### SHORTCUTS
+* CTRL + enter » run code
+* CTRL + E » editor toggle
+* CTRL + M » menu toggle
+* CTRL + - » decrease fontsize
+* CTRL + + » increase fontsize
+* CMD  + A » mark all code
+* CMD  + C » copy code
+
+### opsætning
+* I settings skal I fjerne 'Live Coding', så programmet ikke automatisk kører jeres kode. Hvis I er i gang med at lave en løkke kan det få programmet til at gå ned.
+* Programmet kører i browseren og den letteste måde at gemme er at markere alt teksten og kopiere den over i en tekst editor på computeren.
+
+
+### eksempel
+
+
+## Indlæsning af data
+
+Vi starter med js filen [ExploreData.js](ExploreData.js)

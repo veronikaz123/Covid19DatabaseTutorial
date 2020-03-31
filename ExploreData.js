@@ -4,8 +4,6 @@ Se consolen i Chrome View->Developer->JavaScript console.
 Der kommer nogen fejlmeddelser som I skal se bort fra.
 */
 
-
-
 let table;
 
 function preload() {
@@ -15,8 +13,8 @@ function preload() {
 function setup() {
 	print('antal rækker: ' + table.getRowCount());
 	print('antal søjler: ' + table.getColumnCount());
-//  Italy = table.findRow('Italy','Country/Region');
-//  print(Italy);
+  Italy = table.findRow('Italy','Country/Region');
+  print(Italy);
 //  print(Object.keys(Italy));
 //  print(Italy.table.columns);
 //  print(Italy.get(2));
