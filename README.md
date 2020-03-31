@@ -83,6 +83,8 @@ Vi får brug for data rent i csv format, Det kan gøres ved `Raw` knappen.
 ## Undersøgelse og visualisering af data
 Vi vil bruge javaScript biblioteket P5.js til at visualisere data.
 
+[P5js Table reference](https://p5js.org/reference/#/p5.Table)
+
 Onlineværktøjet [https://teddavis.org/p5live/](https://teddavis.org/p5live/) gør det muligt at skrive kode sammen på forskellige computere.
 
 ### SHORTCUTS
