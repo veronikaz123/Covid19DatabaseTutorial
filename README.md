@@ -99,4 +99,9 @@ Onlineværktøjet [https://teddavis.org/p5live/](https://teddavis.org/p5live/) g
 
 ## Indlæsning af data
 
-Vi starter med js filen [ExploreData.js](ExploreData.js)
+Vi starter med js filen [ExploreData.js](ExploreData.js).
+
+### Worked example
+* Find javaScript consollen i browseren og aflæs antallet af rækker og søjler.
+* Udkommenter linje 16 og 17, hvad får I?
+*

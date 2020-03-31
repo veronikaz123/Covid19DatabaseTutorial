@@ -11,15 +11,18 @@ function preload() {
 }
 
 function setup() {
-	print('antal rækker: ' + table.getRowCount());
-	print('antal søjler: ' + table.getColumnCount());
+  print(table);
+
+
+}
+
+function deanend(){
+  print('antal rækker: ' + table.getRowCount());
+  print('antal søjler: ' + table.getColumnCount());  print(table.columns[5]);
   Italy = table.findRow('Italy','Country/Region');
   print(Italy);
 //  print(Object.keys(Italy));
 //  print(Italy.table.columns);
 //  print(Italy.get(2));
-}
-
-function draw(){
 
 }
