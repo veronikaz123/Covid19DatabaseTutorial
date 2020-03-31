@@ -12,8 +12,6 @@ function preload() {
 
 function setup() {
   print(table);
-
-
 }
 
 function deanend(){

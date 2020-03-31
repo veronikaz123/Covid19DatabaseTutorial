@@ -102,6 +102,7 @@ Onlineværktøjet [https://teddavis.org/p5live/](https://teddavis.org/p5live/) g
 Vi starter med js filen [ExploreData.js](ExploreData.js).
 
 ### Worked example
-* Find javaScript consollen i browseren og aflæs antallet af rækker og søjler.
-* Udkommenter linje 16 og 17, hvad får I?
-*
+* Find javaScript consollen i browseren.
+* Undersøg data.
+* Find antallet af rækker og kolonner.
+* Find data på Italien.
