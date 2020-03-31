@@ -9,7 +9,7 @@ I skal undersøge informationen på websitet.
 * Beskriv interaktionen, hvordan vælger brugeren og hvilke informationer kommer der.
 
 
-### Tre-lags-arkitektur, [iftek](http://iftek.dk/leksikon:tre-lags-arkitektur)
+## Tre-lags-arkitektur, (kilde [iftek](http://iftek.dk/leksikon:tre-lags-arkitektur))
 I en trelagsarkitur indeles et program i tre lag, hvilket er er nyttigt i implementeringen af programmer, da de tre lag så vidt mulig holdes adskilte og dermed er hele programmet lettere at overskue.
 
 *Præsentationslag:* Det øverste lag der håndterer modtagelse og præsentation af data. Dette lag er kendetegnet ved at være ”tæt” på brugeren af programmet.
@@ -39,3 +39,39 @@ eks.
 * Find Spanien i datasættet, man kan søge og undersøg hvad der er i datalaget.
 * Skriv speudokode til at vælge spanien fra venstre kolonne på websiden.
 * Hvilke informationer vises i *præsentationslaget*?
+
+
+## Github datastruktur
+Github ordner sin data i en biblioteksstruktur med 'repositor' som overmappe og subrepositories som undermapper.
+
+Master repositori for covid-19 datamaterialer er [github covid-19](https://github.com/CSSEGISandData/COVID-19).
+
+Master repositori har en `README.md` fil hvor repositoriet bliver forklaret.
+
+### Øvelse
+*   Undersøg mappestrukturen for  [github covid-19](https://github.com/CSSEGISandData/COVID-19).
+* Læs `README.md` filen.
+* Hvornår er subrepositories sidst opdateret.
+* Hvornår er datasættet time_series_covid19_deaths_global.csv sidst opdateret og hvordan er det opdateret?
+
+
+## Github csv datasets
+CSV, comma separated values, data er en simpel struktur hvor værdier bliver adskilt af komma. Det bruges i regneark og til simpel overførsel af data. Github viser filerne som et regneark, men mulighed for at søge i det.
+
+De forskellige datasæt eks `antal smittede` og `antal døde` kan ses som en database. For at kunne trække værdier fra forskellige datasæt skal hver række i datasættet have et unikt navn, kaldet en **nøgle**.
+
+### Databases elemente
+* **nøgle**, unik identifikation.
+* **Entiteter**, data som er konstant, persons navn, firma, bil.
+* **Attributter**, data som knytter sig til Entiteterne.
+* **Relationer**, relationer mellem entiteter.
+
+
+### Øvelse
+* Angiv nøgle, Entiteter og Attributter for datasættet [covid-19 death](https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv#L8)
+* Overvej problemer i forhold til at medtage flere regioner eller lande.
+* Beskriv hvilken information tabellens første række, header, angiver.
+
+<small><small>
+Løsning, **nøgle**, rækkenummer i tabellen, **Entiteter**, lande eller regioner, **Attributter**, koordinater og antal smittede
+</small></small>
