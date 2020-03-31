@@ -17,7 +17,9 @@ I en trelagsarkitur indeles et program i tre lag, hvilket er er nyttigt i implem
 *Datalag:* Det nederste lag der opbevarer og håndterer data. Dette lag er også kendetegnet ved at være ”tæt” på computeren.
 
 *Datalaget* er her en database som er lagt offentligt tilgængelig på Github
+
  [github.com antal dødsfald](https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv)
+
 [githob.com antal smittede](https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv)
 
 *Logiklaget* behandler data.
@@ -109,6 +111,6 @@ Vi starter med js filen [ExploreData.js](ExploreData.js).
 
 ### Øvslse
 * Find javaScript consollen i browseren.
-* Undersøg data.
+* Undersøg data for antallet af smittede (linket er øverst).
 * Print antallet af rækker og kolonner.
 * Find data på Spanien.
