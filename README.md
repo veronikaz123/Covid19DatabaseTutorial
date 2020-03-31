@@ -26,6 +26,7 @@ Hvis mus klik med koordinaterne (-6.92,61) vis data fra række 94
 ```
 I *Præsentationslaget* bliver resultatet af logiklaget vist.
 eks.
-![færøerne](images/database2.png,images/database3.png)
+![faeroeerne](images/database2.png)
+![graf](images/database3.png)
 
 ### Øvelse
