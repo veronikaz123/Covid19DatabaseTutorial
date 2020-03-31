@@ -20,5 +20,4 @@ function tilSenere(){
   Italy = table.findRow('Italy','Country/Region');
   print(Italy);
   print(Italy.arr[22]);
-
 }

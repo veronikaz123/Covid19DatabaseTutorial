@@ -104,5 +104,11 @@ Vi starter med js filen [ExploreData.js](ExploreData.js).
 ### Worked example
 * Find javaScript consollen i browseren.
 * Undersøg data.
-* Find antallet af rækker og kolonner.
+* Print antallet af rækker og kolonner.
 * Find data på Italien.
+
+### Øvslse
+* Find javaScript consollen i browseren.
+* Undersøg data.
+* Print antallet af rækker og kolonner.
+* Find data på Spanien.
