@@ -14,13 +14,11 @@ function setup() {
   print(table);
 }
 
-function deanend(){
+function tilSenere(){
   print('antal rækker: ' + table.getRowCount());
   print('antal søjler: ' + table.getColumnCount());  print(table.columns[5]);
   Italy = table.findRow('Italy','Country/Region');
   print(Italy);
-//  print(Object.keys(Italy));
-//  print(Italy.table.columns);
-//  print(Italy.get(2));
+  print(Italy.arr[22]);
 
 }
