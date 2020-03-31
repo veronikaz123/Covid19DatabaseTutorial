@@ -19,6 +19,7 @@ I en trelagsarkitur indeles et program i tre lag, hvilket er er nyttigt i implem
 *Datalaget* er her en database som er lagt offentligt tilgængelig på Github [https://github.com/CSSEGISandData/COVID-19](https://github.com/CSSEGISandData/COVID-19)
 *Logiklaget* behandler data.
 ![dataeksempel](images/database1.png)
+
 eks.
 pseudokode til valg af grønland:
 ```
@@ -26,6 +27,7 @@ Hvis mus klik med koordinaterne (-6.92,61) vis data fra række 94
 ```
 I *Præsentationslaget* bliver resultatet af logiklaget vist.
 eks.
+
 ![faeroeerne](images/database2.png)
 ![graf](images/database3.png)
 
