@@ -130,4 +130,8 @@ Vi starter med js filen [ExploreData.js](ExploreData.js).
 Eksempel på iteration over data for Italien. [iterateData.js](iterateData.js)
 
 ### Øvelse
-*
+* Kopier koden over i p5live og kør den.
+* Besktiv hvad I ser.
+* Beskriv hvad `frameRate(100/count);` gør.
+* Hvorfor starter variablen `count` ved 4?
+* Tilføj Spanien ved siden af.
