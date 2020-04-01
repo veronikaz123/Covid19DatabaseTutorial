@@ -146,6 +146,18 @@ Eksempel op visualisering af antallet af smittede i Italien.
 * Hvad i koden er nyt i forhold til `iterateData.js` filen.
 * Tilføj Spanien, igen.
 
+Det er også muligt at bruge placeringsdata, Long (longitude) og Lat (latitude).
+
+[dataVisualiseringLocation.js](dataVisualiseringLocation)
+
+### Øvelse
+* Kopier koden over i p5live og kør den, i genstarter med musseklik.
+Problemerne med at få den helt rigtige placering skyldes at projektionen af en rund sfære på et flat kort ikke er triviel.
+* Prøv at flyt eller stræk kortet for at forbedre det.
+  - Kan man gøre det så placeringen bliver helt korrekt?
+* Beskriv det nye i koden.
+
+
 
 # Selvstændigt projekt
 
