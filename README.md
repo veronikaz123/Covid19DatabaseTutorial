@@ -156,9 +156,20 @@ Problemerne med at få den helt rigtige placering skyldes at projektionen af en 
 * Prøv at flyt eller stræk kortet for at forbedre det.
   - Kan man gøre det så placeringen bliver helt korrekt?
 * Beskriv det nye i koden.
+* Giv de steder som vokser mest en anden farve.
 
+# Selvstændigt projekt 3 moduler.
 
+I disse coronatider er information om smitte og smittespredning vigtig.
 
-# Selvstændigt projekt
+I skal lave en visualisering af covid-19 smittespredningen.
 
-I disse coronatider er information om
+visualiseringen **kan** indeholde
+* Udvikling over tid.
+* Geografisk udbredelse.
+* De forskellige attributter, antal døde, antal smittede og antallet som er kommet sig.
+* Brugerinteraktion, eks. udvælgning af lande eller attributter.
+
+I skal redegøre for datastrukturen og hvordan I behandler data.
+
+Visualiseringen og redegørelsen skal præsenteres i jeres portfoie.
