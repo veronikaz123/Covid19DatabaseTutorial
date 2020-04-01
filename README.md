@@ -135,3 +135,13 @@ Eksempel på iteration over data for Italien. [iterateData.js](iterateData.js)
 * Beskriv hvad `frameRate(100/count);` gør.
 * Hvorfor starter variablen `count` ved 4?
 * Tilføj Spanien ved siden af.
+
+## datavisualisering
+Eksempel op visualisering af antallet af smittede i Italien.
+[dataVisualisering](dataVisualisering)
+
+### Øvelse
+* Kopier koden over i p5live og kør den.
+* Besktiv hvad I ser.
+* Hvad i koden er nyt i forhold til `iterateData.js` filen.
+* Tilføj Spanien, igen.
