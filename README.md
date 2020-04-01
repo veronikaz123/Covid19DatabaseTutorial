@@ -145,3 +145,8 @@ Eksempel op visualisering af antallet af smittede i Italien.
 * Besktiv hvad I ser.
 * Hvad i koden er nyt i forhold til `iterateData.js` filen.
 * Tilføj Spanien, igen.
+
+
+# Selvstændigt projekt
+
+I disse coronatider er information om
