@@ -108,11 +108,12 @@ Onlineværktøjet [https://teddavis.org/p5live/](https://teddavis.org/p5live/) g
 
 Vi starter med js filen [ExploreData.js](ExploreData.js).
 
-### Worked example
+### Example, [videoløsning](https://youtu.be/sfg6oYdRS5I)
 * Find javaScript consollen i browseren.
 * Undersøg data.
 * Print antallet af rækker og kolonner.
 * Find data på Italien.
+
 
 ### Øvelse
 * Find javaScript consollen i browseren.
@@ -120,3 +121,9 @@ Vi starter med js filen [ExploreData.js](ExploreData.js).
 * Print antallet af rækker og kolonner.
 * Ser det ud til at være samme struktur som det andet datasæt.
 * Find data på Spanien.
+
+## Iteration over data
+Eksempel på iteration over data for Italien. [iterateData.js](iterateData.js)
+
+### Øvelse
+*
