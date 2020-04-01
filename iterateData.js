@@ -20,8 +20,8 @@ function setup() {
 function draw(){
   frameRate(100/count);
   background(0,100,200);
-  text(Italy.arr[i],500,500);
-  text(head[i],500,400);
+  text(Italy.arr[count],500,500);
+  text(head[count],500,400);
 
   count +=1;
   if (count>table.getColumnCount()-1){
