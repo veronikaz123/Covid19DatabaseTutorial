@@ -88,6 +88,8 @@ Vi vil bruge javaScript biblioteket P5.js til at visualisere data.
 
 Onlineværktøjet [https://teddavis.org/p5live/](https://teddavis.org/p5live/) gør det muligt at skrive kode sammen på forskellige computere.
 
+[kort introduktionsvideo](https://youtu.be/_zipXWWdM-o)
+
 Det er også muligt at bruge Arom og Teletype, hvis I har det bedre med det.
 
 ### SHORTCUTS til p5live
@@ -102,9 +104,6 @@ Det er også muligt at bruge Arom og Teletype, hvis I har det bedre med det.
 ### opsætning p5live
 * I settings skal I fjerne 'Live Coding', så programmet ikke automatisk kører jeres kode. Hvis I er i gang med at lave en løkke kan det få programmet til at gå ned.
 * Programmet kører i browseren og den letteste måde at gemme er at markere alt teksten og kopiere den over i en tekst editor på computeren.
-
-
-### eksempel
 
 
 ## Indlæsning af data
