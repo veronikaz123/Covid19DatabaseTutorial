@@ -77,6 +77,7 @@ De forskellige datasæt eks `antal smittede` og `antal døde` kan ses som en dat
 * Angiv nøgle, Entiteter og Attributter for datasættet [covid-19 death](https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv#L8)
 * Overvej problemer i forhold til at medtage flere regioner eller lande.
 * Beskriv hvilken information tabellens første række, header, angiver.
+
 Løsning, **nøgle**, rækkenummer i tabellen, **Entiteter**, lande eller regioner, **Attributter**, koordinater og antal smittede
 
 Vi får brug for data rent i csv format, Det kan gøres ved `Raw` knappen.
