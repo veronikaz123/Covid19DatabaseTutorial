@@ -25,6 +25,7 @@ I en trelagsarkitur indeles et program i tre lag, hvilket er er nyttigt i implem
 [githob.com antal smittede](https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv)
 
 **Logiklaget** behandler data.
+
 ![dataeksempel](images/database1.png)
 
 eks.
@@ -87,7 +88,9 @@ Vi vil bruge javaScript biblioteket P5.js til at visualisere data.
 
 Onlineværktøjet [https://teddavis.org/p5live/](https://teddavis.org/p5live/) gør det muligt at skrive kode sammen på forskellige computere.
 
-### SHORTCUTS
+Det er også muligt at bruge Arom og Teletype, hvis I har det bedre med det.
+
+### SHORTCUTS til p5live
 * CTRL + enter » run code
 * CTRL + E » editor toggle
 * CTRL + M » menu toggle
@@ -96,7 +99,7 @@ Onlineværktøjet [https://teddavis.org/p5live/](https://teddavis.org/p5live/) g
 * CMD  + A » mark all code
 * CMD  + C » copy code
 
-### opsætning
+### opsætning p5live
 * I settings skal I fjerne 'Live Coding', så programmet ikke automatisk kører jeres kode. Hvis I er i gang med at lave en løkke kan det få programmet til at gå ned.
 * Programmet kører i browseren og den letteste måde at gemme er at markere alt teksten og kopiere den over i en tekst editor på computeren.
 
@@ -108,7 +111,8 @@ Onlineværktøjet [https://teddavis.org/p5live/](https://teddavis.org/p5live/) g
 
 Vi starter med js filen [ExploreData.js](ExploreData.js).
 
-### Example, [videoløsning](https://youtu.be/sfg6oYdRS5I)
+### Example
+[videoløsning](https://youtu.be/sfg6oYdRS5I)
 * Find javaScript consollen i browseren.
 * Undersøg data.
 * Print antallet af rækker og kolonner.
