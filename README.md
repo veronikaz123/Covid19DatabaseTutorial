@@ -93,7 +93,7 @@ Onlineværktøjet [https://teddavis.org/p5live/](https://teddavis.org/p5live/) g
 
 Det er også muligt at bruge Arom og Teletype, hvis I har det bedre med det.
 
-### SHORTCUTS til p5live
+### SHORTCUTS til p5live (virker i Chrome)
 * CTRL + enter » run code
 * CTRL + E » editor toggle
 * CTRL + M » menu toggle
