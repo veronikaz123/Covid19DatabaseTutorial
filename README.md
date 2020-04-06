@@ -148,7 +148,7 @@ Eksempel op visualisering af antallet af smittede i Italien.
 
 Det er også muligt at bruge placeringsdata, Long (longitude) og Lat (latitude).
 
-[dataVisualiseringLocation.js](dataVisualiseringLocation)
+[dataVisualiseringLocation.js](dataVisualiseringLocation.js)
 
 ### Øvelse
 * Kopier koden over i p5live og kør den, i genstarter med musseklik.
