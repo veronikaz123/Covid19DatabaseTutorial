@@ -9,7 +9,8 @@ timedelay = 0;
 
 function preload() {
   table = loadTable('https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv', 'csv','header');
-  img = loadImage('images/map.jpg');
+  img = createImg('https://github.com/mpsteenstrup/Covid19DatabaseTutorial/blob/master/images/map.jpg?raw=true');
+  img.hide();
 
 }
 
