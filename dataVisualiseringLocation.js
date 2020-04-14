@@ -20,6 +20,7 @@ function setup() {
   textSize(60);
   fill(200);
   frameRate(10);
+  noStroke();
 }
 
 function draw(){

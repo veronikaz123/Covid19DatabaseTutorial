@@ -138,7 +138,7 @@ Eksempel på iteration over data for Italien. [iterateData.js](iterateData.js)
 
 ## datavisualisering
 Eksempel op visualisering af antallet af smittede i Italien.
-[dataVisualisering](dataVisualisering)
+[dataVisualisering.js](dataVisualisering.js)
 
 ### Øvelse
 * Kopier koden over i p5live og kør den.
