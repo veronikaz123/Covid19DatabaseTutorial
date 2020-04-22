@@ -11,8 +11,8 @@ url = 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_cov
 df = pd.read_csv(url, error_bad_lines=False)
 
 #print(df.head(100))
-
-country = df.loc[df['Country/Region']=='Denmark'].index
+country = input('giv et landenavn: ')
+country = df.loc[df['Country/Region']==country].index
 country = country[len(country)-1]
 
 data = df.to_numpy()
@@ -36,10 +36,12 @@ print(yData)
 popt, pcov = curve_fit(func,xData[:len(xData)-1],yData[:len(xData)-1],[1.3,0.5])
 
 xData = [pd.to_datetime(d) for d in dates]
+min = yData[0]
+max = yData[len(yData)-1]
+plt.text(xData[0],max-100,'T: {:.4f}'.format(np.log(2)/np.log(popt[0])) , fontsize=12)
+plt.text(xData[0],(max-min)/2,'a: {:.4f}'.format(popt[0]) , fontsize=12)
+plt.text(xData[0],min+100, 'max: {:d}'.format(yData[len(yData)-1]), fontsize=12)
 
-plt.text(xData[0],12,'T: {:.4f}'.format(np.log(2)/np.log(popt[0])) , fontsize=12)
-plt.text(xData[0],16,'a: {:.4f}'.format(popt[0]) , fontsize=12)
-plt.text(xData[0],20, 'max: {:d}'.format(yData[len(yData)-1]), fontsize=12)
 
 plt.plot(xData,func(np.extract(data[country,:]>2,dage[:]).astype(int),*popt),'r-')
 plt.scatter(xData,yData)
