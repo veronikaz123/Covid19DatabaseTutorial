@@ -109,7 +109,7 @@ Det er også muligt at bruge Arom og Teletype, hvis I har det bedre med det.
 
 ## Indlæsning af data
 
-Vi starter med js filen [ExploreData.js](ExploreData.js).
+Vi starter med js filen [ExploreData.js](javaScript/ExploreData.js).
 
 ### Example
 [videoløsning](https://youtu.be/sfg6oYdRS5I)
@@ -127,7 +127,7 @@ Vi starter med js filen [ExploreData.js](ExploreData.js).
 * Find data på Spanien.
 
 ## Iteration over data
-Eksempel på iteration over data for Italien. [iterateData.js](iterateData.js)
+Eksempel på iteration over data for Italien. [iterateData.js](javaScript/iterateData.js)
 
 ### Øvelse
 * Kopier koden over i p5live og kør den.
@@ -138,7 +138,7 @@ Eksempel på iteration over data for Italien. [iterateData.js](iterateData.js)
 
 ## datavisualisering
 Eksempel op visualisering af antallet af smittede i Italien.
-[dataVisualisering.js](dataVisualisering.js)
+[dataVisualisering.js](javaScript/dataVisualisering.js)
 
 ### Øvelse
 * Kopier koden over i p5live og kør den.
@@ -148,7 +148,7 @@ Eksempel op visualisering af antallet af smittede i Italien.
 
 Det er også muligt at bruge placeringsdata, Long (longitude) og Lat (latitude).
 
-[dataVisualiseringLocation.js](dataVisualiseringLocation.js)
+[dataVisualiseringLocation.js](javaScript/dataVisualiseringLocation.js)
 
 ### Øvelse
 * Kopier koden over i p5live og kør den, i genstarter med musseklik.
