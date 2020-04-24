@@ -11,7 +11,6 @@ url = 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_cov
 df = pd.read_csv(url, error_bad_lines=False)
 
 #print(df.head(100))
-#country = input('giv et landenavn: ' )
 country = input("giv et landenavn:  ") or "Denmark"
 country = df.loc[df['Country/Region']==country].index
 country = country[len(country)-1]
@@ -46,7 +45,7 @@ plt.text(xData[0],min+100, 'max: {:d}'.format(yData[len(yData)-1]), fontsize=12)
 
 plt.plot(xData,func(np.extract(data[country,:]>2,dage[:]).astype(int),*popt),'r-')
 plt.scatter(xData,yData)
-plt.yscale('log')
+#plt.yscale('log')
 plt.xticks(rotation=20)
 plt.grid()
 plt.show()
